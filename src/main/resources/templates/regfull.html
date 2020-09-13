@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org/">
+<head>
+    <meta charset="UTF-8">
+    <title>Waiting list</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/regfull.css}">
+</head>
+<body>
+<div class="text">
+    <h1>No more free places available in this class!</h1>
+    <p> Dear, participant! Unfortunately, your selected class is fully booked!
+        We have added you in our waiting list, in case this class becomes available.
+        If you have any questions, please contact us at info@trainings.com </p>
+</div>
+<a th:href="@{/}">
+    <button>Back to Home page</button>
+</a>
+</body>
+</html>

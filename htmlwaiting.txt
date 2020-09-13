@@ -1,0 +1,10 @@
+First name = Anna, last name = fox, e-mail = @fox
+First name = janis, last name = lapsa, e-mail = @inbox
+First name = Ieva, last name = Roze, e-mail = @roze
+First name = janis, last name = bigels, e-mail = @inbox
+First name = Anna, last name = bigels, e-mail = @inbox
+First name = madara, last name = ashasad, e-mail = @klava
+First name = madara, last name = Roze, e-mail = @inbox
+First name = Anna, last name = fox, e-mail = @bigels
+First name = Anna, last name = bigels, e-mail = @fox
+First name = madara, last name = lapsa, e-mail = madis@inbox

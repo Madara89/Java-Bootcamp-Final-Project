@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org/">
+<head>
+    <meta charset="UTF-8">
+    <title>What is JavaScript</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/info.css}">
+</head>
+<div class="left">
+    <h1>Information about JavaScript</h1>
+    <p>
+        JavaScript is among the most powerful and flexible programming languages of the web.
+        It powers the dynamic behaviour on most websites.
+        Learn the JavaScript fundamentals you’ll need for front-end or back-end development!
+    </p>
+</div>
+<div class="right">
+    <div class="buttonregister">
+<a th:href="@{/applyjavascript}">
+    <button>Register</button></a>
+    </div>
+    <div class="buttonback">
+<a th:href="@{/}">
+    <button>Back</button>
+</a>
+    </div>
+</div>
+</body>
+</html>

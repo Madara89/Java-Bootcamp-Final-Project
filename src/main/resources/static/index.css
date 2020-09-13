@@ -1,0 +1,81 @@
+body
+{
+    background-image: url(photo.jpg);
+    background-size: 1280px 660px;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: Arial;
+}
+.wrap{
+    position: relative;
+    width: 390px;
+    border-radius: 20px;
+    margin:250px;
+    background:rgba(0, 0, 0, 0, 0.8);
+    box-sizing: border-box;
+    padding: 20px;
+    color:black;
+    margin-top: 0;
+}
+h2{
+    text-align: center;
+}
+li{
+    display: flex;
+    background:rgba(0, 0, 0, 0.10);
+    box-sizing: border-box;
+    padding:10px 5px;
+    outline:none;
+    border:none;
+    font-size: medium;
+    color:black;
+    border-radius: 5px;
+    margin:10px;
+}
+li:hover{
+    transform: scale(1.06);
+    background: silver;
+}
+button{
+    width: 80px;
+    box-sizing: border-box;
+    padding: 5px;
+    margin-top: 0;
+    outline:none;
+    border:none;
+    background:#60adde;
+    border-radius: 5px;
+    font-size:15px;
+    color:black;
+    position: absolute;
+    right: 0;
+}
+button:hover{
+    background:#003366;
+    color:#fff;
+}
+li text:nth-child(1){
+    width: 11px;
+    color: black;
+    text-align: justify;
+    font-weight: bold;
+    font-size:16px;
+}
+li text:nth-child(2){
+    width: 80px;
+    color: black;
+    text-align: justify;
+    font-weight: bold;
+    font-size:16px;
+}
+li a{
+    color: black;
+    font-size:17px;
+    font-weight: bold;
+}
+li a:hover{
+    color: #60adde;
+    
+}
+
+        
